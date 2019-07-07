@@ -9,9 +9,14 @@ class Song
     save
   end
 
+  #def self.class_method
+       #a = A.new
+       #a.instance_method
+    #end
+
   def self.create
-    self.new
-    self.save
+    a = self.new
+    a.save
 
   end
 
