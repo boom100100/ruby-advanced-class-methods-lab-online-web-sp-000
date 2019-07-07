@@ -39,6 +39,10 @@ class Song
       return false
     end
 
+    def find_or_create_by_name(input_name)
+      
+    end
+
 
   def self.all
     @@all
