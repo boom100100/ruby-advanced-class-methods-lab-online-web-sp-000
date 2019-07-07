@@ -11,8 +11,8 @@ save
 
   def self.create
     self.new
-    
-    
+
+
   end
 
   def self.new_by_name(input_name)
