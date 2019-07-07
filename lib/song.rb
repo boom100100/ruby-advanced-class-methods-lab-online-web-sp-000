@@ -6,7 +6,7 @@ class Song
   def initialize
     #@name = ""
     #@artist_name = ""
-    
+
   end
 
   def self.create
