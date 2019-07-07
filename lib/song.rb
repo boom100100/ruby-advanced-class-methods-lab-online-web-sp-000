@@ -8,8 +8,9 @@ class Song
     self.new
     @@all << self
     print @@all
-    self
     print self
+    self
+    
   end
 
   def self.all
