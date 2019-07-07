@@ -22,7 +22,8 @@ class Song
 
   def self.new_by_name(input_name)
     #@name = input_name
-    self.new
+    instance = self.new
+    instance.name = input_name
 
 
   end
