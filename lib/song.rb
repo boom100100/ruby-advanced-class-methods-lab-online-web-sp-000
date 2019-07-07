@@ -9,6 +9,7 @@ class Song
     @@all << self
     print @@all
     self
+    print self
   end
 
   def self.all
