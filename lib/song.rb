@@ -5,12 +5,12 @@ class Song
   def initialize(name, artist)
     @name = name
     @artist_name = artist
-    
+
   end
 
   def self.create
     self.new
-    
+
     self
   end
 
