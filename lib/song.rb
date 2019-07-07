@@ -4,11 +4,9 @@ class Song
   @@all = []
 
   def initialize
-    #@name = ""
-    #@artist_name = ""
-
+    @name = ""
+    @artist_name = ""
     save
-    binding.pry
   end
 
   def self.create
@@ -18,7 +16,7 @@ class Song
   end
 
   def self.new_by_name(input_name)
-    @name = input_name
+    #@name = input_name
     self.new
 
 
