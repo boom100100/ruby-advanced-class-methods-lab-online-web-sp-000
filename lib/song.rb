@@ -17,7 +17,7 @@ class Song
     self.name=(input_name)
   end
 
-  def name
+  def self.name
     @name
   end
 
