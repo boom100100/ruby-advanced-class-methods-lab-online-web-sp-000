@@ -15,10 +15,9 @@ class Song
     #end
 
   def self.create
-    a = self.new
-    a.save
-    a
-
+    instance = self.new
+    instance.save
+    instance
   end
 
   def self.new_by_name(input_name)
