@@ -22,11 +22,13 @@ class Song
     instance
   end
 
-  #def name
-    #@name
-  #end
-
-
+  def self.create_by_name(input_name)
+    #@name = input_name
+    instance = self.new
+    instance.name = input_name
+    instance.save
+    instance
+  end
 
   def self.all
     @@all
