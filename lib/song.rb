@@ -14,16 +14,10 @@ class Song
 
   def self.new_by_name(input_name)
     self.new
-    name=(input_name)
+    #name=(input_name)
   end
 
-  def self.name
-    @name
-  end
 
-  def self.name=(name)
-    @name = name
-  end
 
   def self.all
     @@all
