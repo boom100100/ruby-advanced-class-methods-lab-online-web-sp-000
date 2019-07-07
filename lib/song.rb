@@ -3,9 +3,11 @@ class Song
   @@all = []
 
   def initialize(name, artist)
+    :name = name
+    :artist_name = artist
   end
 
-  def self.create(name, artist)
+  def self.create()
     self.initialize(name, artist)
     @@all << self
     self
