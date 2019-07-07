@@ -43,7 +43,7 @@ class Song
       if (a = find_by_name(input_name)) == false
         create_by_name(input_name)
       else
-
+        return a
       end
     end
 
