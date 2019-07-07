@@ -8,8 +8,8 @@ class Song
   end
 
   def self.create()
-    self.initialize(name, artist)
-    @@all << self
+    self.new(name, artist)
+    save
     self
   end
 
