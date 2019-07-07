@@ -3,7 +3,7 @@ class Song
   @@all = []
 
   def self.create
-    self.new(name, artist_name)
+    self.new(:name, :artist_name)
     #@@all << self
     #self
   end
