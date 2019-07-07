@@ -4,7 +4,7 @@ class Song
 
 
 
-  def self.create(name, artist)
+  def self.create
     self.new
     save
     self
