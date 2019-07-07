@@ -4,9 +4,7 @@ class Song
   @@all = []
 
   def initialize
-    #@name = ""
-    #@artist_name = ""
-    save
+    
   end
 
   #CALL AN INSTANCE METHOD W/IN CLASS METHOD
