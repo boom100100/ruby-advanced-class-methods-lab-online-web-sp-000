@@ -9,6 +9,7 @@ class Song
     save
   end
 
+  #CALL AN INSTANCE METHOD W/IN CLASS METHOD
   #def self.class_method
        #a = A.new
        #a.instance_method
