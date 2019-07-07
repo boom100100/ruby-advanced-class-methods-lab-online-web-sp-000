@@ -21,7 +21,7 @@ class Song
     @name
   end
 
-  def name=(name)
+  def self.name=(name)
     @name = name
   end
 
