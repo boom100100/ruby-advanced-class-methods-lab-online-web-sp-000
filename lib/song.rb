@@ -4,7 +4,7 @@ class Song
   @@all = []
 
   def initialize
-    
+
   end
 
   #CALL AN INSTANCE METHOD W/IN CLASS METHOD
