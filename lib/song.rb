@@ -3,8 +3,7 @@ class Song
   @@all = []
 
   def initialize
-    :name
-    :artist_name
+    
     save
   end
 
@@ -20,6 +19,5 @@ class Song
   def save
     self.class.all << self
   end
-
 
 end
