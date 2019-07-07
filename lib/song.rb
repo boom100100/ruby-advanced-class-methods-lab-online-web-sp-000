@@ -9,7 +9,7 @@ class Song
   end
 
   def self.create
-    self.new
+    self.new(:name, :artist)
 
     self
   end
