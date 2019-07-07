@@ -6,11 +6,13 @@ class Song
   def initialize
     #@name = ""
     #@artist_name = ""
-    save
+    
   end
 
   def self.create
     self.new
+    save
+    self
   end
 
   def self.new_by_name(input_name)
