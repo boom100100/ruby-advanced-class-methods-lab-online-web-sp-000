@@ -6,8 +6,6 @@ class Song
 
   def self.create(name, artist)
     self.new
-    :name = name
-    :artist_name = artist
     save
     self
   end
