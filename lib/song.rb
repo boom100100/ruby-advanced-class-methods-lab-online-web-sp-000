@@ -24,6 +24,7 @@ class Song
     #@name = input_name
     instance = self.new
     instance.name = input_name
+    instance
 
 
   end
