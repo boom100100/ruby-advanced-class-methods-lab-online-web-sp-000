@@ -14,8 +14,9 @@ class Song
   end
 
   def self.new_by_name(input_name)
-    self.create
     @name = input_name
+    self.new
+    
 
   end
 
