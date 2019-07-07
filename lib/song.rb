@@ -6,7 +6,8 @@ class Song
   def initialize
     #@name = ""
     #@artist_name = ""
-save
+    binding.pry
+    save
   end
 
   def self.create
