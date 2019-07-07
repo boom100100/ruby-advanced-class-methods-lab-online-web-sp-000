@@ -11,7 +11,7 @@ class Song
   def self.create
     self.new(:name, :artist)
 
-    self
+    
   end
 
   def self.all
