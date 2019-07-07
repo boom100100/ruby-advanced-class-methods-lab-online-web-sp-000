@@ -40,7 +40,7 @@ class Song
     end
 
     def find_or_create_by_name(input_name)
-      if !find_by_name(input_name)
+      if (a = find_by_name(input_name)) == false
         create_by_name(input_name)
       else
 
