@@ -38,7 +38,7 @@ class Song
       }
       return false
     end
-  
+
 
   def self.all
     @@all
