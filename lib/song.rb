@@ -3,13 +3,16 @@ class Song
   @@all = []
 
   def initialize
-
     save
   end
 
   def self.create
     self.new
+  end
 
+  def self.new_by_name(name)
+    self.create
+    :name = name
   end
 
   def self.all
