@@ -6,7 +6,7 @@ class Song
 
   def self.create
     self.new
-    @@all << self
+    save
     print @@all
     print self
     self
