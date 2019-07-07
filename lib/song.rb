@@ -3,6 +3,8 @@ class Song
   @@all = []
 
   def initialize
+    @name = ""
+    @artist_name = ""
     save
   end
 
@@ -12,7 +14,7 @@ class Song
 
   def self.new_by_name(name)
     self.new
-    name=(name)
+    #name=(name)
   end
 
   def name
