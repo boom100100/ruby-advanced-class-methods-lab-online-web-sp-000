@@ -30,6 +30,10 @@ class Song
     instance
   end
 
+  def self.find_by_name(input_name)
+    @@all.include?(input_name)
+  end
+
   def self.all
     @@all
   end
