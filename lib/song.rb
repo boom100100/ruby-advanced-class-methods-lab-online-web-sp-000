@@ -4,11 +4,9 @@ class Song
 
 
 
-  def self.create
+  def create
     self.new
-    save
-    #self.all << self
-    self
+    
   end
 
   def self.all
