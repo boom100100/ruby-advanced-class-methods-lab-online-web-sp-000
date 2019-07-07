@@ -10,7 +10,7 @@ class Song
 
   def self.create
     self.new(:name, :artist)
-    cope = self
+    copy = self
     @@all << copy
     self
 
