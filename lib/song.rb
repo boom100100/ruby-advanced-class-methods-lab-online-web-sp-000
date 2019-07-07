@@ -10,7 +10,6 @@ class Song
     print @@all
     print self
     self
-
   end
 
   def self.all
