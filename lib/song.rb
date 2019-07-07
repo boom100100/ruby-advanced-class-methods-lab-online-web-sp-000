@@ -20,13 +20,11 @@ class Song
     instance = self.new
     instance.name = input_name
     instance
-
-
   end
 
-  def name
-    @name
-  end
+  #def name
+    #@name
+  #end
 
 
 
