@@ -43,7 +43,7 @@ class Song
       if !find_by_name(input_name)
         create_by_name(input_name)
       else
-        
+
       end
     end
 
