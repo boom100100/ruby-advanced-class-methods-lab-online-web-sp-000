@@ -3,10 +3,6 @@ class Song
   attr_accessor :name, :artist_name
   @@all = []
 
-  def initialize
-
-  end
-
   #CALL AN INSTANCE METHOD W/IN CLASS METHOD
   #def self.class_method
        #a = A.new
