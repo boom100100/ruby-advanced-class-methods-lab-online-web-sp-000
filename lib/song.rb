@@ -8,7 +8,7 @@ class Song
   end
 
   def self.create()
-    self.new(name, artist)
+    self.new(:name, :artist_name)
     save
     self
   end
