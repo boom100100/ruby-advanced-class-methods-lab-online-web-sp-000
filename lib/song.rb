@@ -22,7 +22,7 @@ class Song
     instance
   end
 
-  def self.new_from_filename(song_title, artist_name)
+  def self.new_from_filename(song_title)
     #@name = input_name
     instance = self.new
     instance.name = song_title
