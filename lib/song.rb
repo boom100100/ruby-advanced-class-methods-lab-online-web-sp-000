@@ -32,6 +32,16 @@ class Song
     instance
   end
 
+  def self.new_from_filename(song_title)
+    #@name = input_name
+    instance = self.new
+    split_array = song_title.split(" - ")
+
+    instance.name = split_array[1][0..-5]
+    instance.artist_name = split_array[0]
+    instance
+  end
+
   def self.create_by_name(input_name)
     #@name = input_name
     instance = self.new
