@@ -49,9 +49,11 @@ class Song
         }
       if find_by_name(input_name) == false
         instance = create_by_name(input_name)
+        return instance
+      else
         return nil
       end
-
+      
       #return nil
     end
 
