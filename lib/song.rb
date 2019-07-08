@@ -40,7 +40,9 @@ class Song
     end
 
     def self.find_or_create_by_name(input_name)
-
+      if find_by_name(input_name) != nil
+        return find_by_name(input_name)
+      end
       instance = create_by_name(input_name) if find_by_name(input_name) == nil
         #instance = create_by_name(input_name)
         #return instance
