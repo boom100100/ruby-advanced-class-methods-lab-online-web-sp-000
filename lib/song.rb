@@ -40,20 +40,19 @@ class Song
     end
 
     def self.find_or_create_by_name(input_name)
-      find_by_name("")
-      create_by_name("")
+      find_by_name("") #invokes
+      create_by_name("") #invokes
       @@all.each { |song|
         if song.name == input_name
-          return song
+          return song #returns
         end
         }
       if find_by_name(input_name) == false
         instance = create_by_name(input_name)
-        return instance
-      else
         return nil
       end
-
+      
+      return nil
     end
 
 
