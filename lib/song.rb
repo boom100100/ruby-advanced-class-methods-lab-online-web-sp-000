@@ -51,7 +51,7 @@ class Song
         instance = create_by_name(input_name)
         return nil
       end
-      
+
       return nil
     end
 
