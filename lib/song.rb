@@ -39,6 +39,7 @@ class Song
 
     instance.name = split_array[1][0..-5]
     instance.artist_name = split_array[0]
+    save
     instance
   end
 
