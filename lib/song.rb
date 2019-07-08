@@ -48,7 +48,8 @@ class Song
         end
         }
       if find_by_name(input_name) == false
-        return create_by_name(input_name)
+        instance = create_by_name(input_name)
+        return instance
       else
         return nil
       end
