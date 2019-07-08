@@ -22,6 +22,13 @@ class Song
     instance
   end
 
+  def self.new_from_filename(input_name)
+    #@name = input_name
+    instance = self.new
+    instance.name = input_name
+    instance
+  end
+
   def self.create_by_name(input_name)
     #@name = input_name
     instance = self.new
