@@ -52,7 +52,7 @@ class Song
         return nil
       end
 
-      return nil
+      #return nil
     end
 
 
