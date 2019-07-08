@@ -40,8 +40,11 @@ class Song
     end
 
     def self.find_or_create_by_name(input_name)
+      @@all.each { |song|
+        
+      }
       if find_by_name(input_name) == false
-        return create_by_name(input_name)
+        return nil
       else
         return find_by_name(input_name)
       end
