@@ -32,7 +32,7 @@ class Song
     instance
   end
 
-  def self.new_from_filename(song_title)
+  def self.create_from_filename(song_title)
     #@name = input_name
     instance = self.new
     split_array = song_title.split(" - ")
