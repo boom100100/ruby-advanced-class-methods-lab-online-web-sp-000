@@ -40,7 +40,8 @@ class Song
     end
 
     def self.find_or_create_by_name(input_name)
-
+      find_by_name("")
+      create_by_name("")
       if find_by_name(input_name) == false
         return create_by_name(input_name)
       else
